@@ -5,7 +5,7 @@ Java application for optimizing payment distribution across multiple payment met
 ## Features
 - Processes orders with different payment methods
 - Applies discounts and respects payment limits
-- Special handling for loyalty points
+- Special handling for loyalty points (loyalty points prioritised, 10% discount if 10% of order was paid with loyalty points)
 - Input via JSON files
 - Outputs optimized payment allocation
 
@@ -34,7 +34,7 @@ mvn clean package
 java -jar app.jar <orders.json> <paymentmethods.json>
 ```
 
-#Example inputs and output
+## Example inputs and output
 
 Example orders.json
 
