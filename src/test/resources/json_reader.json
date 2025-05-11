@@ -1,0 +1,10 @@
+[
+	{
+		"testString": "test",
+		"testBigDecimal": "123.123",
+		"testList": [
+		  "test",
+		  "test"
+		]
+	}
+]
